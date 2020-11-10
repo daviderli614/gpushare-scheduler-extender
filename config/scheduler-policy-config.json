@@ -10,7 +10,7 @@
       "nodeCacheCapable": true,
       "managedResources": [
         {
-          "name": "aliyun.com/gpu-mem",
+          "name": "ucloud.cn/gpu-mem",
           "ignoredByScheduler": false
         }
       ],

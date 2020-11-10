@@ -9,10 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/gpushare"
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/routes"
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/scheduler"
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/utils/signals"
+	"github.com/daviderli614/gpushare-scheduler-extender/pkg/gpushare"
+	"github.com/daviderli614/gpushare-scheduler-extender/pkg/routes"
+	"github.com/daviderli614/gpushare-scheduler-extender/pkg/scheduler"
+	"github.com/daviderli614/gpushare-scheduler-extender/pkg/utils/signals"
+
 	"github.com/comail/colog"
 	"github.com/julienschmidt/httprouter"
 

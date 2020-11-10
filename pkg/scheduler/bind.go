@@ -1,7 +1,7 @@
 package scheduler
 
 import (
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/cache"
+	"github.com/daviderli614/gpushare-scheduler-extender/pkg/cache"
 	"k8s.io/apimachinery/pkg/types"
 	schedulerapi "k8s.io/kubernetes/pkg/scheduler/api"
 )

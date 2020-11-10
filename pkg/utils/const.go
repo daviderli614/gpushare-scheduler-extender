@@ -1,13 +1,13 @@
 package utils
 
 const (
-	ResourceName = "aliyun.com/gpu-mem"
-	CountName    = "aliyun.com/gpu-count"
+	ResourceName = "ucloud.cn/gpu-mem"
+	CountName    = "ucloud.cn/gpu-count"
 
 	EnvNVGPU              = "NVIDIA_VISIBLE_DEVICES"
-	EnvResourceIndex      = "ALIYUN_COM_GPU_MEM_IDX"
-	EnvResourceByPod      = "ALIYUN_COM_GPU_MEM_POD"
-	EnvResourceByDev      = "ALIYUN_COM_GPU_MEM_DEV"
-	EnvAssignedFlag       = "ALIYUN_COM_GPU_MEM_ASSIGNED"
-	EnvResourceAssumeTime = "ALIYUN_COM_GPU_MEM_ASSUME_TIME"
+	EnvResourceIndex      = "UCLOUD_CN_GPU_MEM_IDX"
+	EnvResourceByPod      = "UCLOUD_CN_GPU_MEM_POD"
+	EnvResourceByDev      = "UCLOUD_CN_GPU_MEM_DEV"
+	EnvAssignedFlag       = "UCLOUD_CN_GPU_MEM_ASSIGNED"
+	EnvResourceAssumeTime = "UCLOUD_CN_GPU_MEM_ASSUME_TIME"
 )

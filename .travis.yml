@@ -3,7 +3,7 @@ language: go
 go:
   - "1.10"
 
-go_import_path: github.com/AliyunContainerService/gpushare-scheduler-extender
+go_import_path: github.com/daviderli614/gpushare-scheduler-extender
 
 # let us have speedy Docker-based Travis workers
 sudo: false

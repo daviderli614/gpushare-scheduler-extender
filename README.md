@@ -1,8 +1,8 @@
 # GPU Sharing Scheduler Extender in Kubernetes 
 
-[![CircleCI](https://circleci.com/gh/AliyunContainerService/gpushare-scheduler-extender.svg?style=svg)](https://circleci.com/gh/AliyunContainerService/gpushare-scheduler-extender)
-[![Build Status](https://travis-ci.org/AliyunContainerService/gpushare-scheduler-extender.svg?branch=master)](https://travis-ci.org/AliyunContainerService/gpushare-scheduler-extender) 
-[![Go Report Card](https://goreportcard.com/badge/github.com/AliyunContainerService/gpushare-scheduler-extender)](https://goreportcard.com/report/github.com/AliyunContainerService/gpushare-scheduler-extender)
+[![CircleCI](https://circleci.com/gh/daviderli614/gpushare-scheduler-extender.svg?style=svg)](https://circleci.com/gh/AliyunContainerService/gpushare-scheduler-extender)
+[![Build Status](https://travis-ci.org/daviderli614/gpushare-scheduler-extender.svg?branch=master)](https://travis-ci.org/AliyunContainerService/gpushare-scheduler-extender) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/daviderli614/gpushare-scheduler-extender)](https://goreportcard.com/report/github.com/AliyunContainerService/gpushare-scheduler-extender)
 
 
 ## Overview
@@ -71,7 +71,7 @@ go build -o $GOPATH/bin/kubectl-inspect-gpushare-v2 cmd/inspect/*.go
 
 ## Related Project
 
-- [gpushare device plugin](https://github.com/AliyunContainerService/gpushare-device-plugin.git)
+- [gpushare device plugin](https://github.com/daviderli614/gpushare-device-plugin.git)
 
 ## Roadmap
 

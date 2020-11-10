@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/AliyunContainerService/gpushare-scheduler-extender/pkg/utils"
+	"github.com/daviderli614/gpushare-scheduler-extender/pkg/utils"
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
