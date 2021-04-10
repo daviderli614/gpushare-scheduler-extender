@@ -60,14 +60,34 @@ go build -o $GOPATH/bin/kubectl-inspect-gpushare-v2 cmd/inspect/*.go
 ```
 
 ## Demo
-
-### - Demo 1: Deploy multiple GPU Shared Pods and schedule them on the same GPU device in binpack way 
-
-[![](demo1.jpg)](http://cloud.video.taobao.com//play/u/2987821887/p/2/e/6/t/1/214292079721.mp4)
-
-### - Demo 2:  Avoid GPU memory requests that fit at the node level, but not at the GPU device level
-
-[![](demo2.jpg)](http://cloud.video.taobao.com//play/u/2987821887/p/2/e/6/t/1/214235285109.mp4)
+```bash
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-gpushare1
+  labels:
+    app: test-gpushare1
+spec:
+  selector:
+    matchLabels:
+      app: test-gpushare1
+  template:
+    metadata:
+      labels:
+        app: test-gpushare1
+    spec:
+      schedulerName: gpushare-scheduler
+      containers:
+      - name: test-gpushare1
+        image: uhub.service.ucloud.cn/ucloud/gpu-player:share
+        command:
+          - python3
+          - /app/main.py
+        resources:
+          limits:
+            # GiB
+            ucloud.cn/gpu-mem: 1
+```
 
 ## Related Project
 
